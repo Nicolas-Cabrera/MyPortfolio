@@ -1,0 +1,46 @@
+.sidebar{
+    position: fixed;
+    height: 100%;
+    background: blue;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.sidebar-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-items ul{
+    list-style: none;
+}
+
+.sidebar-items li{
+    padding: 0 0.5rem;
+}
+
+.sidebar-items a{
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-items a:hover,
+.sidebar-items a:active{
+    color: tomato;
+}
+
+@media(max-width: 600px) {
+    .sidebar-items{
+        display: none;
+    }
+}
+@media(min-width: 601px){
+    .sidebar-Toggle-Button{
+        display: none;
+    }
+}

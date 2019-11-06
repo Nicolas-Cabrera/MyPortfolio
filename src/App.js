@@ -1,27 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import Sidebar from './Sidebar/Sidebar'
+import SideDrawer from './MobileToggle/SideDrawer';
+import Backdrop from './Backdrop/Backdrop';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      <h1>Nicolas Cabrera</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+state = {
+  sideDrawerOpen: false
+};
+
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {sideDrawerOpen: !prevState.sideDrawerOpen};
+    });
+  };
+
+  backdropClickHandler = () => {
+    this.setState({sideDrawerOpen: false});
+  };
+
+  render() {
+    let backDrop; 
+
+    if(this.state.sideDrawerOpen){
+      backDrop = <Backdrop click={this.backdropClickHandler}/>
+    }
+    return (
+      <div>
+        <Sidebar drawerClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer show={this.state.sideDrawerOpen}/>
+        {backDrop}
+      </div>
+    );
+  }
 }
 
 export default App;
