@@ -33,5 +33,11 @@
 
 .sidedrawer a:hover,
 .sidedrawer a:active {
-    color: tomato;
+    color: white;
+}
+
+@media(min-width: 601px){
+    .sidedrawer     {
+        display: none;
+    }
 }
