@@ -1,1 +1,20 @@
+h1{
+    margin: 0;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    grid-template-areas: 'sideBar content';
+}
 
+.content {
+    grid-area: content;
+    height: 100%;
+}
+
+@media(max-width: 600px) {
+    .container{
+        grid-template-columns: 1fr 11fr;
+    }
+}
