@@ -13,8 +13,12 @@ h1{
     height: 100%;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 800px) {
     .container{
-        grid-template-columns: 1fr 11fr;
+        display: block;
+    }
+
+    .content {
+        padding-left: 30px;
     }
 }
