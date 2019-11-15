@@ -36,8 +36,8 @@
     color: white;
 }
 
-@media(max-width: 601px){
-    .sidedrawer {
+@media(max-width: 600px){
+    /* .sidedrawer {
         display: none;
-    }
+    } */
 }
