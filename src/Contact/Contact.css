@@ -1,6 +1,10 @@
-.contact-area {
-    text-align: left;
-}
 .icon {
-    padding: 50px;
+    padding: 20px;
+}
+.footer {
+    display: flex;
+    margin-left: 25%;
+}
+.title {
+    background-color: #959595;
 }

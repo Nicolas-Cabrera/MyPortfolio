@@ -9,15 +9,20 @@ const Contact = () => {
         <>
             <div className='section' id='contact'>
                 <div className='contact-area'>
-                    <h1>Contact</h1>
-                    <h3>Nicolas Cabrera</h3>
-                    <h3>London, UK</h3>
-                    <h3>Nicolascc1@hotmail.com</h3>
-                    <div>
-                        <img className ='icon' src={email} alt='email logo' />
-                        <img className ='icon' src={linkedin} alt='linkedin logo' />
-                        <img className ='icon' src={github} alt='github logo' />
-                    </div>                   
+                <h1 className='title'>Contact</h1>
+                    <div className='footer'>
+                        <div>
+                            <h3>Nicolas Cabrera</h3>
+                            <h3>London, UK</h3>
+                            <h3>Nicolascc1@hotmail.com</h3>
+                        </div>
+                        <div>
+                            <img className='icon' src={email} alt='email logo' />
+                            <img className='icon' src={linkedin} alt='linkedin logo' />
+                            <img className='icon' src={github} alt='github logo' />
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </>

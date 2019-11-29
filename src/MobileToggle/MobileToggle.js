@@ -1,12 +1,11 @@
 import React from 'react';
+import arrowButton from '../images/toggle.png';
 import './MobileToggle.css'
 
 
 const MobileToggle = props => (
     <button className='toggle-button' onClick={props.click}>
-        <div className='toggle-button-line' />
-        <div className='toggle-button-line' />
-        <div className='toggle-button-line' />
+        <img src={arrowButton} alt='Arrow button'></img>
     </button>
 );
 

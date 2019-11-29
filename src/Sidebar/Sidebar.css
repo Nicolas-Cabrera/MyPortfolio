@@ -1,7 +1,7 @@
 .sideBar{
-    position: relative;
+    position: fixed;
     height: 100%;
-    background: #d3d3d3;
+    background: #959595; 
     grid-area: sideBar;
 }
 

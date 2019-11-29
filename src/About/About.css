@@ -1,3 +1,6 @@
 .section {
-    height: 100vh;
+    /* height: 100vh; */
+}
+.title {
+    background-color: #959595;
 }

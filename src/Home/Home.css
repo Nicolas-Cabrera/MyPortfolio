@@ -1,9 +1,23 @@
 #home {
-    background-image: url('../images/bg.jpg');
+    background-image: url('../images/post-it-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh   ;
 }
-h2 {
+.name {
     text-align: center;
+    color: white;
+    padding-top: 60px;
+    font-size: 50px;
+}
+.type-script {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 50px;
+}
+@media(max-width: 600px){
+    #home {
+        background-position-x: -100px;
+    }    
 }

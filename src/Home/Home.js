@@ -5,8 +5,8 @@ import Typewriter from 'typewriter-effect';
 const Home = () => {
     return (
         <div className='content' id='home'>
-            <h1>Nicolas Cabrera</h1>
-            <h1>
+            <h1 className='name'>Nicolas Cabrera</h1>
+            <div className='type-script'>
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter.typeString('London based Full-Stack Developer!')
@@ -20,7 +20,7 @@ const Home = () => {
                             .start();
                     }}
                 />
-            </h1>
+            </div>
         </div>
     );
 }
