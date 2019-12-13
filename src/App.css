@@ -4,13 +4,14 @@ h1{
 }
 .container {
     display: grid;
-    grid-template-columns: 1fr 11fr;
+    grid-template-columns: 1.5fr 11fr;
     grid-template-areas: 'sideBar content';
 }
 
 .content {
     grid-area: content;
     height: 100%;
+    width: 100%;
 }
 
 @media(max-width: 600px) {
