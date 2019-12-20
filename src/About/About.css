@@ -1,6 +1,15 @@
 .section {
-    /* height: 100vh; */
+    height: 100vh;
 }
 .title {
+    padding: 20px;
     background-color: #959595;
+}
+
+.about-me-paragraph {
+    font-family: sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+
 }
