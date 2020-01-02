@@ -13,9 +13,9 @@ const Projects = () => {
                         {/* <img classname='image' src={kodflix} alt='Kodflix'/> */}
                         <h2>Kodflix</h2>
                     </div>
-                    <div className='proj-item'>
-                        {/* <img classname='image' src={footapp} alt='Footapp'/> */}
-                        <h2>Footapp</h2>
+					<div className='proj-item'>
+						<h2>Footapp</h2>
+                        <img classname='project-image' src={footapp} alt='Footapp'/>
                     </div>
                     <div className='proj-item'>
                         <h2>Calculator</h2>

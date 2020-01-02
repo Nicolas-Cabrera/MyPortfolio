@@ -9,7 +9,7 @@ import css from '../images/css.png';
 
 const Skills = () => {
     return (
-        <>
+        <div>
             <div className='section' id='skills'>
                 <h1 className='title'>Skills</h1>
                 <div className=''>
@@ -25,7 +25,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
