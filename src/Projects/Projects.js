@@ -10,12 +10,12 @@ const Projects = () => {
                 <h1 className='title'>Projects</h1>
                 <div className='project-sec'>
                     <div className='proj-item'>
-                        {/* <img classname='image' src={kodflix} alt='Kodflix'/> */}
-                        <h2>Kodflix</h2>
+						<h2>Kodflix</h2>
+						<img src={kodflix} alt='kodflix' />
                     </div>
 					<div className='proj-item'>
 						<h2>Footapp</h2>
-                        <img classname='project-image' src={footapp} alt='Footapp'/>
+                        <img src={footapp} alt='Footapp' />
                     </div>
                     <div className='proj-item'>
                         <h2>Calculator</h2>
