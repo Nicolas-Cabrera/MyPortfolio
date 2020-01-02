@@ -11,7 +11,7 @@ h1{
 .content {
     grid-area: content;
     height: 100%;
-    width: 100%;
+    width: 90vw;
 }
 
 @media(max-width: 600px) {

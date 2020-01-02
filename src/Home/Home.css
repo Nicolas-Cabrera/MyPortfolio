@@ -1,10 +1,12 @@
 #home {
-    background-image: url('../images/post-it-bg.png');
+	background-image: url('../images/bg.JPG');
+	background-position-y: -180px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh   ;
 }
 .name {
+	font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: white;
     padding-top: 60px;

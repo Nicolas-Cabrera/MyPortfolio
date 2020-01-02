@@ -11,16 +11,16 @@ const Home = () => {
                     onInit={(typewriter) => {
                         typewriter.typeString('London based Full-Stack Developer!')
                             .callFunction(() => {
-                                console.log('String typed out!');
+                                //console.log('String typed out!');
                             })
                             .pauseFor(2000)
                             .callFunction(() => {
-                                console.log('All strings were deleted');
+                                //console.log('All strings were deleted');
                             })
                             .start();
                     }}
                 />
-            </div>
+			</div>
         </div>
     );
 }
