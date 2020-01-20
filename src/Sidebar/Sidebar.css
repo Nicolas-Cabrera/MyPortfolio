@@ -1,3 +1,8 @@
+
+ul {
+	padding-right: 20px; 
+}
+
 .sideBar{
     position: fixed;
     height: 100%;
@@ -21,9 +26,10 @@
     text-decoration: none;
 }
 
-.sidebar-items a:hover,
-.sidebar-items a:active{
-    color: #a9a9a9;
+.sidebar-items li:hover {
+	width: 100%;
+	color: #a9a9a9;
+	background-color: white;
 }
 
 @media(max-width: 600px) {
